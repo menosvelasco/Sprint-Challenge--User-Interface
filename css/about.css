@@ -93,25 +93,30 @@ html,
 body {
   height: 100%;
   max-width: 800px;
-  margin: auto;
-}
-
-.hulu {
-  border-bottom: 1px dashed black;
-}
-
-body {
-  max-width: 800px;
   margin: 0 auto;
 }
 
-.boxsec {
+nav {
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-between;
+  justify-content: center;
+}
+nav a {
+  padding: 10px;
+}
+.hulu {
+  padding: 2%;
+  border-bottom: 1px dashed black;
 }
 
-.toplft {
-  width: 45%;
+.top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content {
+  padding: 1%;
+  margin: 1%;
+}
+.content button {
+  padding: 0 5% 0 5%;
 }

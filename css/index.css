@@ -162,7 +162,6 @@ p {
 .top-content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   margin-bottom: 20px;
 }
 
@@ -318,10 +317,6 @@ footer {
 }
 
 footer nav {
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 20px 2%;
   font-size: 14px;
 }

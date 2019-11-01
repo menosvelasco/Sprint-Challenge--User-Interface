@@ -167,7 +167,7 @@ p {
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 2.5%;
+  padding: 35px 0;
 }
 nav a {
   padding: 10px;

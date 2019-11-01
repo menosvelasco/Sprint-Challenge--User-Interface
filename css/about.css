@@ -98,7 +98,7 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 2.5%;
 }
 nav a {
@@ -117,7 +117,6 @@ nav a {
 }
 .dashed {
   border-bottom: 1px dashed black;
-  padding: 1% 0;
 }
 
 .top {
@@ -131,7 +130,6 @@ nav a {
 }
 .content h1 {
   font-size: 1.6rem;
-  padding: 2%;
 }
 .content button {
   padding: 3%;

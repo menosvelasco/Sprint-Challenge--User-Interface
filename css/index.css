@@ -164,16 +164,25 @@ p {
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.5%;
+}
+nav a {
+  padding: 10px;
+}
 
 .top-content .text-container {
   width: 48%;
   padding: 2% 1%;
   padding-bottom: 20px;
+  border-bottom: 2px dashed black;
 }
 
 .middle-content {
   margin-bottom: 20px;
-  border-bottom: 1px dashed black;
+  border-bottom: 2px dashed black;
 }
 
 .middle-content h2 {
@@ -317,6 +326,8 @@ footer {
 }
 
 footer nav {
+  display: flex;
+  justify-content: flex-start;
   padding: 20px 2%;
   font-size: 14px;
 }
@@ -324,5 +335,5 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
-  padding: 10px;
+  padding: 5%x;
 }

@@ -1,0 +1,148 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 2.5%;
+}
+nav a {
+  padding: 10px;
+}
+.hulu {
+  padding: 2%;
+  border-bottom: 1px dashed black;
+}
+.hulu h1 {
+  padding: 1%;
+  font-size: 1.6rem;
+}
+.boxsec {
+  border-bottom: 1px dashed black;
+}
+.dashed {
+  border-bottom: 1px dashed black;
+  padding: 1% 0;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content {
+  padding: 1%;
+  margin: 1.5% 0 4.3%;
+}
+.content h1 {
+  font-size: 1.6rem;
+  padding: 2%;
+}
+.content button {
+  padding: 3%;
+  margin: 5% 0;
+  border-radius: 15px;
+  border: 3px solid black;
+}
+.work {
+  margin: 6% 0;
+}
+.work h2 {
+  padding: 1%;
+  font-size: 1.6rem;
+}

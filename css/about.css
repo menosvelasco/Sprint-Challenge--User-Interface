@@ -103,6 +103,8 @@ nav {
 }
 nav a {
   padding: 10px;
+  color: black;
+  text-decoration: none;
 }
 .hulu {
   padding: 2%;
@@ -119,11 +121,19 @@ nav a {
 }
 
 .content {
-  padding: 1%;
+  padding: 20px 20px;
+  margin: 0 26px;
   border-bottom: 1px dashed black;
 }
 .content h1 {
   font-size: 1.6rem;
+  /* padding: 1% 0; */
+}
+.content p {
+  padding: 12px 0;
+}
+.content img {
+  padding: 3px 0;
 }
 .content button {
   padding: 3%;
@@ -137,4 +147,7 @@ nav a {
 .work h2 {
   padding: 1%;
   font-size: 1.6rem;
+}
+footer nav {
+  margin: -2%;
 }

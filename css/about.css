@@ -123,6 +123,7 @@ nav a {
 .content {
   padding: 20px 20px;
   margin: 0 26px;
+  margin-top: 25px;
   border-bottom: 1px dashed black;
 }
 .content h1 {
@@ -134,6 +135,7 @@ nav a {
 }
 .content img {
   padding: 3px 0;
+  /* margin-top: 25px; */
 }
 .content button {
   padding: 3%;

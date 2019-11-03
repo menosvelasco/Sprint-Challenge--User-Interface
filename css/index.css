@@ -329,9 +329,10 @@ footer {
 
 footer nav {
   display: flex;
-  justify-content: flex-start;
-  padding: 20px 2%;
+  justify-content: space-between;
+  padding: 10px 0;
   font-size: 14px;
+  width: 50%;
 }
 
 footer nav a {
@@ -339,5 +340,5 @@ footer nav a {
   text-decoration: none;
 }
 footer nav {
-  margin: -2%;
+  /* margin: -2%; */
 }

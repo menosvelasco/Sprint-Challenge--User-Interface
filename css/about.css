@@ -151,5 +151,12 @@ nav a {
   font-size: 1.6rem;
 }
 footer nav {
-  margin: -2%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 14px;
+  width: 50%;
 }
+/* footer nav {
+  margin: -2%;
+} */

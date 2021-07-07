@@ -164,16 +164,27 @@ p {
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0;
+}
+nav a {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
 
 .top-content .text-container {
   width: 48%;
   padding: 2% 1%;
   padding-bottom: 20px;
+  border-bottom: 2px dashed black;
 }
 
 .middle-content {
   margin-bottom: 20px;
-  border-bottom: 1px dashed black;
+  border-bottom: 2px dashed black;
 }
 
 .middle-content h2 {
@@ -317,12 +328,17 @@ footer {
 }
 
 footer nav {
-  padding: 20px 2%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
   font-size: 14px;
+  width: 50%;
 }
 
 footer nav a {
   color: white;
   text-decoration: none;
-  padding: 10px;
+}
+footer nav {
+  /* margin: -2%; */
 }
